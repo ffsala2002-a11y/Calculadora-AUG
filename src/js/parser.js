@@ -1,3 +1,5 @@
+import { parsePrecoSeguro } from './util.js';
+
 export function parseGarantias(txt){
   return txt
     .split(/\r?\n/)
@@ -20,3 +22,4 @@ export function parseGarantias(txt){
     })
     .filter(Boolean);
 }
+
