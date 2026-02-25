@@ -10,16 +10,16 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background-color: #2e2e2e;
+  background-color: #FFFFFF;
 }
 body #app {
-  background-color: #2e2e2e;
+  background-color: #FFFFFF;
 }
 body #app .view {
-  background-color: #2e2e2e;
+  background-color: #FFFFFF;
 }
 body #app .view .page {
-  background-color: #2e2e2e;
+  background-color: #FFFFFF;
   /* Conteúdo das páginas */
   /* Bottom toolbar */
 }
@@ -28,8 +28,9 @@ body #app .view .page .rota {
   width: 100%;
   height: 100%;
   display: none;
-  background-color: #2e2e2e;
+  background-color: #FFFFFF;
 }
+
 body #app .view .page .rota .alerta {
   position: fixed;
   z-index: 9;
@@ -122,8 +123,8 @@ body #app .view .page .rota .menu-lateral {
   overflow: hidden;
   transform: translateX(-1000px);
   transition: 0.5s ease;
-  background: rgb(15, 15, 15);
-  color: rgb(255, 255, 255);
+  background-color: #FBFEFF;
+  color: #000000;
 }
 body #app .view .page .rota .menu-lateral .upload {
   width: 95%;
@@ -327,6 +328,7 @@ body #app .view .page .rota .menu-lateral .upload .box-dev .content {
   display: flex;
   flex-direction: column;
   padding: 0.8rem;
+  color: #FFFFFF;
 }
 body #app .view .page .rota .menu-lateral .upload .buttons {
   position: absolute;
@@ -470,6 +472,7 @@ body #app .view .page .rota .main-calculadora .box-list {
   top: 4rem;
   padding: 1rem;
   overflow: auto;
+  background: #FFFFFF;
 }
 body #app .view .page .rota .main-calculadora .box-list #lista {
   display: flex;
@@ -489,7 +492,8 @@ body #app .view .page .rota .main-calculadora .box-list #lista .item {
   padding: 1rem;
   font-size: 15px;
   border: solid 1px;
-  background: #222222;
+  color: #000000;
+  background-color: #FBFEFF;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 body #app .view .page .rota .main-calculadora .box-list #lista .item .descricao {
@@ -497,7 +501,7 @@ body #app .view .page .rota .main-calculadora .box-list #lista .item .descricao 
 }
 body #app .view .page .rota .main-calculadora .box-list #lista .item .descricao .nce {
   font-weight: bold;
-  color: #e6e276;
+  color: #0010CD;
 }
 body #app .view .page .rota .main-calculadora .box-list #lista .item .descricao small {
   font-size: 15px;
@@ -546,11 +550,13 @@ body #app .view .page .rota .main-calculadora .box-list #lista .item .buttons bu
 }
 body #app .view .page .rota .main-calculadora .box-list #lista .item .buttons .btn-minus {
   right: 4rem;
-  background: radial-gradient(circle, rgb(235, 235, 235) 0%, rgb(255, 255, 255) 100%);
+  color: #0028F5;
+  background: radial-gradient(circle, rgba(208, 208, 208, 1) 0%, rgba(235, 235, 235, 1) 100%);
 }
 body #app .view .page .rota .main-calculadora .box-list #lista .item .buttons .btn-plus {
   right: 1rem;
-  background: radial-gradient(circle, rgb(235, 235, 235) 0%, rgb(255, 255, 255) 100%);
+  color: #11C300;
+  background: radial-gradient(circle, rgba(208, 208, 208, 1) 0%, rgba(235, 235, 235, 1) 100%);
 }
 body #app .view .page .rota .main-calculadora .box-list #lista .item button {
   right: 1rem;
@@ -620,17 +626,18 @@ body #app .view .page .rota .box-financ .box-config {
   max-width: 90%;
   min-height: 80%;
   border-radius: 50px;
-  background: #222222;
+  background-color: #FBFEFF;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 body #app .view .page .rota .box-financ .box-config .flex {
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  color: white;
+  color: #000000;
 }
 body #app .view .page .rota .box-financ .box-config .flex .box {
   display: flex;
+  color: #000;
   flex-direction: column;
 }
 body #app .view .page .rota .box-financ .box-config .flex .box label {
@@ -672,7 +679,7 @@ body #app .view .page .rota .box-financ .box-config .flex .box-btns button:nth-c
   background: rgb(231, 0, 0);
 }
 body #app .view .page .rota .box-financ .box-config .taxa-financiamento {
-  color: white;
+  color: #000000;
 }
 body #app .view .page .rota .box-financ .box-config .taxa-financiamento .box {
   display: flex;
@@ -693,7 +700,7 @@ body #app .view .page .rota .box-financ .box-config .taxa-financiamento .box inp
   background-color: #222222;
 }
 body #app .view .page .rota .box-financ .box-config .box-entrada {
-  color: white;
+  color: #000000;
 }
 body #app .view .page .rota .box-financ .box-config .box-entrada .box {
   display: flex;
@@ -712,16 +719,15 @@ body #app .view .page .rota .box-financ .box-config .box-entrada .box input {
   color: #28b700;
   background-color: #222222;
 }
-body #app .view .page .rota .box-financ .box-config .box-arrendondar {
+body #app .view .page .rota .box-financ .box-config .box-arrendondar{
   display: flex;
   align-items: center;
   gap: 1rem;
-  color: white;
+  color: #000000;
 }
 body #app .view .page .rota .box-financ .box-config .box-arrendondar .round-box input[type=checkbox] {
   accent-color: rgb(0, 145, 10);
 }
-
 body #app .view .page .rota .box-financ .box-config .result {
   position: absolute;
   bottom: 16rem;
@@ -822,4 +828,4 @@ body #app .view .page .bottom-bar .box-btn .btn:nth-child(2).active {
   from {
     transform: translateY(1000px);
   }
-}
+}/*# sourceMappingURL=styles.css.map */
