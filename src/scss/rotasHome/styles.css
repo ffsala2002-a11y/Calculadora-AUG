@@ -373,7 +373,7 @@ body #app .view .page .rota .main-calculadora {
 }
 body #app .view .page .rota .main-calculadora .relative {
   position: relative;
-  top: -1rem;
+  top: -2rem;
   width: 90vw;
   margin: 0 auto;
 }
@@ -450,7 +450,7 @@ body #app .view .page .rota .main-calculadora .relative .sugestoes table #sugest
 }
 body #app .view .page .rota .main-calculadora .box-title {
   position: absolute;
-  top: 2.5rem;
+  top: 0.2rem;
   width: 100%;
   text-align: center;
 }
@@ -466,13 +466,14 @@ body #app .view .page .rota .main-calculadora .box-title img {
 }
 body #app .view .page .rota .main-calculadora .box-list {
   width: 100%;
-  min-height: 505px;
-  max-height: 505px;
+  min-height: 475px;
+  max-height: 475px;
   position: absolute;
-  top: 4rem;
+  top: 2.5rem;
   padding: 1rem;
   overflow: auto;
   background: #FFFFFF;
+  /*border: solid 1px black;*/
 }
 body #app .view .page .rota .main-calculadora .box-list #lista {
   display: flex;
