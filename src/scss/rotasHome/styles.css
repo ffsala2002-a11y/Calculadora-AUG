@@ -174,7 +174,7 @@ body #app .view .page .rota .menu-lateral .upload .tamb-title .box-img::after {
   position: absolute;
   z-index: 1;
   top: 35%;
-  left: 1rem;
+  left: 1.2rem;
   width: 18%;
   height: 25%;
   background-color: #ffffff;
