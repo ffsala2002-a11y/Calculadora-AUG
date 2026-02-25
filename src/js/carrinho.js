@@ -35,7 +35,7 @@ export function render() {
 
   if (!lista || !resultado) return;
 
-  resultado.style.display = carrinho.length ? 'block' : 'none';
+  resultado.style.display = carrinho.length ? 'none' : 'none';
   lista.innerHTML = '';
 
   const garantias = JSON.parse(localStorage.getItem('garantias') || '[]');
@@ -121,5 +121,6 @@ export function render() {
     lista.appendChild(div);
   });
 }
+
 
 render();
