@@ -738,6 +738,7 @@ body #app .view .page .rota .box-financ .box-config .box-arrendondar{
   align-items: center;
   gap: 1rem;
   color: #000000;
+  opacity:0;
 }
 body #app .view .page .rota .box-financ .box-config .box-arrendondar .round-box input[type=checkbox] {
   accent-color: rgb(0, 145, 10);
