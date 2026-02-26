@@ -140,13 +140,13 @@ export function render() {
 
     <div class="info-produto">
 
-    <small class="nce" style="color:#C8AC00;font-weight:bold;">NCE: ${p.nce}</small>
+    <small class="nce" style="color:#C8AC00;font-weight:bold;">🔢: ${p.nce}</small> |
 
-      <small style="color:blue;font-weight:bold;">GRUPO: ${p.grupo || "-"}</small>
+      <small style="color:blue;font-weight:bold;">🗄️: G${p.grupo || "-"}</small> |
 
-      <small style="font-wright:bold;">COR: ${p.cor || "-"}</small>
+      <small style="font-wright:bold;">🎨: ${p.cor || "-"}</small> |
 
-      <small style="color:#F16800;font-weight:bold;">SALDO: ${p.saldo ?? "-"}</small>
+      <small style="color:#F16800;font-weight:bold;">📦: ${p.saldo ?? "-"}</small>
 
     </div>
 
@@ -293,5 +293,6 @@ export function render() {
 
 
 render();
+
 
 
