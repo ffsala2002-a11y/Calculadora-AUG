@@ -497,13 +497,23 @@ body #app .view .page .rota .main-calculadora .box-list #lista .item {
   background-color: #FBFEFF;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
-body #app .view .page .rota .main-calculadora .box-list #lista .item .descricao {
+body #app .view .page .rota .main-calculadora .box-list #lista .item .box-descricao {
   width: 76%;
+  /*border: solid 1px green;*/
 }
-body #app .view .page .rota .main-calculadora .box-list #lista .item .descricao .nce {
+body #app .view .page .rota .main-calculadora .box-list #lista .item .descricao {
+  font-size: 15px;
   font-weight: bold;
-  color: #0010CD;
 }
+body #app .view .page .rota .main-calculadora .box-list #lista .item .info-produto {
+  display: flex;
+  flex-direction: column;
+  /*border: solid 1px red;*/
+  padding: 0.2rem 0;
+}
+/*body #app .view .page .rota .main-calculadora .box-list #lista .item .info-produto .nce {
+  
+}*/
 body #app .view .page .rota .main-calculadora .box-list #lista .item .descricao small {
   font-size: 15px;
   font-weight: bold;
@@ -518,7 +528,7 @@ body #app .view .page .rota .main-calculadora .box-list #lista .item .garantia-i
   display: flex;
   width: 80%;
   position: absolute;
-  top: 7rem;
+  top: 7.5rem;
 }
 body #app .view .page .rota .main-calculadora .box-list #lista .item .garantia-item .select-garantia {
   width: 50%;
