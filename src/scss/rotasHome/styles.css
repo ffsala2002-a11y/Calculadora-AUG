@@ -498,26 +498,26 @@ body #app .view .page .rota .main-calculadora .box-list #lista .item {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 body #app .view .page .rota .main-calculadora .box-list #lista .item .box-descricao {
-  width: 76%;
+  width: 80%;
   /*border: solid 1px green;*/
 }
 body #app .view .page .rota .main-calculadora .box-list #lista .item .descricao {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: bold;
 }
 body #app .view .page .rota .main-calculadora .box-list #lista .item .info-produto {
   display: flex;
-  flex-direction: column;
-  /*border: solid 1px red;*/
-  padding: 0.2rem 0;
+  gap: 0.5rem;
+  align-items: center;
+  /*flex-direction: column;*/
+  position: absolute;
+  top: 4.3rem;
+  border: solid 1px #E7E7E7;
+  padding: 0.3rem 0.2rem;
 }
 /*body #app .view .page .rota .main-calculadora .box-list #lista .item .info-produto .nce {
   
 }*/
-body #app .view .page .rota .main-calculadora .box-list #lista .item .descricao small {
-  font-size: 15px;
-  font-weight: bold;
-}
 body #app .view .page .rota .main-calculadora .box-list #lista .item .valor-total {
   position: absolute;
   top: 9rem;
@@ -528,7 +528,7 @@ body #app .view .page .rota .main-calculadora .box-list #lista .item .garantia-i
   display: flex;
   width: 80%;
   position: absolute;
-  top: 7.5rem;
+  top: 7.2rem;
 }
 body #app .view .page .rota .main-calculadora .box-list #lista .item .garantia-item .select-garantia {
   width: 50%;
@@ -583,7 +583,10 @@ body #app .view .page .rota .main-calculadora .box-list #lista .item .btn-apagar
   position: absolute;
   top: 1rem;
   right: 1rem;
-  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
   background: radial-gradient(circle, rgb(132, 0, 0) 0%, rgb(255, 0, 0) 100%);
 }
 body #app .view .page .rota .main-calculadora .box-list #lista .item .btn-apagar img {
@@ -840,3 +843,4 @@ body #app .view .page .bottom-bar .box-btn .btn:nth-child(2).active {
     transform: translateY(1000px);
   }
 }/*# sourceMappingURL=styles.css.map */
+  
