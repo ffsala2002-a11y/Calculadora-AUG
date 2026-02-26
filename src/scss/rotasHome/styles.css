@@ -273,7 +273,7 @@ body #app .view .page .rota .menu-lateral .upload .upload-txt .box-import .box-i
   }*/
 }
 body #app .view .page .rota .menu-lateral .upload .upload-txt .box-import .box-input2 label {
-  background: radial-gradient(circle, rgb(0, 147, 10) 0%, rgb(89, 255, 92) 100%);
+  background: radial-gradient(circle, rgba(0, 21, 147, 1) 0%, rgba(89, 113, 255, 1) 100%);
   color: rgb(255, 255, 255);
   padding: 0.8rem 5.7rem;
   border-radius: 10px;
