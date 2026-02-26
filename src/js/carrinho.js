@@ -144,7 +144,7 @@ export function render() {
 
       <small style="color:blue;font-weight:bold;">🗄️: G${p.grupo || "-"}</small> |
 
-      <small style="font-weight:bold;">🎨: ${p.cor || "-"}</small> |
+      <small style="font-weight:bold;font-size:12px;">🎨: ${p.cor || "-"}</small> |
 
       <small style="color:#F16800;font-weight:bold;">📦: ${p.saldo ?? "-"}</small>
 
@@ -293,6 +293,7 @@ export function render() {
 
 
 render();
+
 
 
 
