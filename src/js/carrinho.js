@@ -146,7 +146,7 @@ export function render() {
 
       <small style="color:#F16800;font-weight:bold;">📦: ${p.saldo ?? "-"}</small>|
 
-      <small style="font-weight:bold;font-size:10px;">🎨: ${p.cor || "-"}</small
+      <small style="font-weight:bold;font-size:10px;">🎨: ${p.cor || "-"}</small>
 
     </div>
 
@@ -293,6 +293,7 @@ export function render() {
 
 
 render();
+
 
 
 
