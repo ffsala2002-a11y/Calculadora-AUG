@@ -140,13 +140,13 @@ export function render() {
 
     <div class="info-produto">
 
-    <small class="nce">Nce: ${p.nce}</small>
+    <small class="nce">NCE: ${p.nce}</small>
 
-      <small>Grupo: ${p.grupo || "-"}</small>
+      <small>GRUPO: ${p.grupo || "-"}</small>
 
-      <small>Cor: ${p.cor || "-"}</small>
+      <small>COR: ${p.cor || "-"}</small>
 
-      <small>Saldo: ${p.saldo ?? "-"}</small>
+      <small>SALDO: ${p.saldo ?? "-"}</small>
 
     </div>
 
@@ -293,3 +293,4 @@ export function render() {
 
 
 render();
+
