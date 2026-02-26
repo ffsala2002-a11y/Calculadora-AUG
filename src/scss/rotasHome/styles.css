@@ -88,6 +88,16 @@ body #app .view .page .rota .topo .btn-lateral #btn-lateral {
   cursor: pointer;
   background: transparent;
 }
+body #app .view .page .rota .topo .btn-lateral #btn-lateral:after {
+  content: '';
+  position: absolute;
+  top: -0.3rem;
+  right: -0.4rem;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #009A10;
+}
 body #app .view .page .rota .topo .btn-lateral #btn-lateral img {
   width: 25px;
 }
