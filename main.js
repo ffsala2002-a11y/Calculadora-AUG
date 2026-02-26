@@ -17,36 +17,66 @@ const resultado = document.getElementById('resultado');
 
 // ================= ALERTA ESTILIZADO =================
 
-function mostrarAlerta(msg, tipo = 'erro', tempo = 3000) {
-  let alerta = document.getElementById('alerta');
+function mostrarAlerta(msg, tipo = "erro", tempo = 3000) {
 
-  // cria a div caso não exista.
+  let alerta = document.getElementById("alerta");
+
+
+
   if (!alerta) {
-    alerta = document.createElement('div');
-    alerta.id = 'alerta';
-    alerta.className = 'alerta';
 
-    const rotaAtiva = document.querySelector('.rota[data-rota="perfil"]');
-    rotaAtiva.appendChild(alerta);
+    alerta = document.createElement("div");
+
+    alerta.id = "alerta";
+
+    alerta.className = "alerta";
+
+    document.body.appendChild(alerta);
 
   }
 
+
+
   alerta.innerText = msg;
 
-  // cores por tipo.
-  if (tipo === 'erro') alerta.style.backgroundColor = '#f44336';
-  else if (tipo === 'sucesso') alerta.style.backgroundColor = '#4CAF50';
-  else alerta.style.backgroundColor = '#0068bdff';
 
-  alerta.style.display = 'block';
-  alerta.style.opacity = 1;
-  alerta.style.transform = 'translateY(0)';
+
+  if (tipo === "erro") {
+
+    alerta.style.background = "#f44336";
+
+  } else if (tipo === "sucesso") {
+
+    alerta.style.background = "#4CAF50";
+
+  } else {
+
+    alerta.style.background = "#0068bd";
+
+  }
+
+
+
+  //  força reflow para garantir animação
+
+  void alerta.offsetWidth;
+
+
+
+  //  aparece deslizando
+
+  alerta.classList.add("show");
+
+
+
+  //  some depois do tempo
 
   setTimeout(() => {
-    alerta.style.opacity = 0;
-    alerta.style.transform = 'translateY(-20px)';
-    setTimeout(() => alerta.style.display = 'none', 300);
+
+    alerta.classList.remove("show");
+
   }, tempo);
+
 }
 
 // ================= BASE =================
@@ -174,4 +204,5 @@ entrada.addEventListener('input', () => {
 // ================= LATERAIS =================
 
 uploadLateral();
+
 lupaMovie();
