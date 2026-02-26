@@ -31,26 +31,29 @@ body #app .view .page .rota {
   background-color: #FFFFFF;
 }
 
-body #app .view .page .rota .alerta {
+.alerta {
   position: fixed;
-  z-index: 9;
-  top: 30rem;
-  left: 4%;
-  width: 350px;
+  top: 1rem;
+  right: 0.3rem;
+  min-width: 260px;
   padding: 1rem;
-  text-align: center;
+  border-radius: 10px;
   font-weight: bold;
-  background-color: #f44336;
-  color: white;
-  border-radius: 5px;
-  border: solid 1px rgb(255, 255, 255);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  font-family: sans-serif;
-  transition: opacity 0.3s ease, transform 0.3s ease;
-  display: none;
+  color: #fff;
+
+  transform: translateX(1000px);
   opacity: 0;
-  transform: translateY(-20px);
+
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  z-index: 9999;
 }
+
+/* estado visível */
+.alerta.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
 body #app .view .page .rota .topo {
   min-width: 100%;
   max-width: 100%;
