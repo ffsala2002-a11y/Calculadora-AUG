@@ -343,6 +343,26 @@ body #app .view .page .rota .menu-lateral .upload .box-dev .content {
   padding: 0.8rem;
   color: #FFFFFF;
 }
+.email {
+  color: #0B00DD;
+}
+.box-priv {
+  position: absolute;
+  top: 31rem;
+  left: -0.55rem;
+  width: 106%;
+  height: 100px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: #222222;
+}
+.priv {
+  position: absolute;
+  top: 1rem;
+  left: 1.5rem;
+  font-size: 13px;
+  color: #FFFFFF;
+}
 body #app .view .page .rota .menu-lateral .upload .buttons {
   position: absolute;
   display: flex;
