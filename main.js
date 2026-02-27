@@ -201,8 +201,48 @@ entrada.addEventListener('input', () => {
   });
 });
 
+
+/////////
+
+//NOVO
+
+////////
+
+function atualizarResumoBase() {
+
+  const produtos = JSON.parse(localStorage.getItem("produtos") || "[]");
+
+  const garantias = JSON.parse(localStorage.getItem("garantias") || "[]");
+
+  
+
+  const totalProdutos = produtos.length;
+
+  
+
+  const somaSaldo = produtos.reduce((acc, p) => {
+
+    return acc + (Number(p.saldo) || 0);
+
+  }, 0);
+
+  
+
+  const totalGarantias = garantias.length;
+
+  
+
+  document.getElementById("totalProdutos").innerText = totalProdutos;
+
+  document.getElementById("totalSaldo").innerText = somaSaldo;
+
+  document.getElementById("totalGarantias").innerText = totalGarantias;
+
+}
+
 // ================= LATERAIS =================
 
 uploadLateral();
 
 lupaMovie();
+
