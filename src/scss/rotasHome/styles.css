@@ -165,7 +165,8 @@ body #app .view .page .rota .menu-lateral .upload .tamb-title .box-img {
   display: flex;
   align-items: center;
   position: absolute;
-  left: 1rem;
+  top: -1rem;
+  left: 2rem;
 }
 body #app .view .page .rota .menu-lateral .upload .tamb-title .box-img img {
   width: 80px;
