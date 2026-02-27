@@ -106,6 +106,18 @@ document.getElementById('btnLimparBase').addEventListener('click', () => {
   msg.innerText = '';
   limparCarrinho();
   mostrarAlerta('Base e carrinho limpos.', 'info');
+
+  ///////////
+
+  //NOVO
+
+  //////////
+
+  document.getElementById("totalProdutos").innerText = 0;
+
+  document.getElementById("totalSaldo").innerText = 0;
+
+  document.getElementById("totalGarantias").innerText = 0;
 });
 
 // ================= CARRINHO =================
@@ -254,5 +266,6 @@ function atualizarResumoBase() {
 uploadLateral();
 
 lupaMovie();
+
 
 
