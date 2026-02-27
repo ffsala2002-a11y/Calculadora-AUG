@@ -268,4 +268,13 @@ uploadLateral();
 lupaMovie();
 
 
+////////////
+
+//NOVO
+
+///////////
+
+atualizarResumoBase();
+
+
 
