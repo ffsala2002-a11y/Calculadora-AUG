@@ -87,8 +87,17 @@ document.getElementById('btnSalvar').addEventListener('click', () => {
     return;
   }
 
+  ////////
+
+  //NOVO
+
+  ////////
+
   carregarBase(fileProdutos.files[0], fileGarantias.files[0], len => {
+
     mostrarAlerta(`✔ Base carregada (${len} produtos)`, 'sucesso');
+
+    atualizarResumoBase(); // 🔥 adiciona iss
   });
 });
 
@@ -245,4 +254,5 @@ function atualizarResumoBase() {
 uploadLateral();
 
 lupaMovie();
+
 
