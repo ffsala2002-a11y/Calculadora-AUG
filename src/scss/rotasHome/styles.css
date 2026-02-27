@@ -561,7 +561,8 @@ body #app .view .page .rota .main-calculadora .box-list #lista .item .info-produ
   /*flex-direction: column;*/
   position: absolute;
   top: 4.3rem;
-  border: solid 1px #E7E7E7;
+  border-radius: 10px;
+  border: solid 1.5px #E0E0E0;
   padding: 0.3rem 0.2rem;
 }
 /*body #app .view .page .rota .main-calculadora .box-list #lista .item .info-produto .nce {
