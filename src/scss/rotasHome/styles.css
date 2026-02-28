@@ -374,7 +374,7 @@ body #app .view .page .rota .menu-lateral .upload .box-dev .content {
 }
 .content-resumo {
   width: 100%;
-  padding: 0.3rem;
+  padding: 0.3rem 0.8rem;
   border-radius: 10px;
   border-bottom-left-radius: 22px;
   border-bottom-right-radius: 22px;
