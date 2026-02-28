@@ -209,6 +209,7 @@ body #app .view .page .rota .menu-lateral .upload .upload-txt {
 body #app .view .page .rota .menu-lateral .upload .upload-txt .box-title {
   display: flex;
   gap: 0.5rem;
+  align-items: center;
   position: absolute;
   top: -2.5rem;
 }
